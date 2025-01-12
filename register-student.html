@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Landing page template built with HTML and Bootstrap 4 for presenting training courses, classes, workshops and for convincing visitors to register using the form.">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Student Registration - Ezquela</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="ex-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="white">Student Registration</h1>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of ex-header -->
+    <!-- end of header -->
+
+
+    <!-- Breadcrumbs -->
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Student Registration</span>
+                    </div> <!-- end of breadcrumbs -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of breadcrumbs -->
+
+
+    <!-- Student Registration -->
+    <div class="ex-basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <h3>Welcome to Our Student Registration Portal</h3>
+                        <p>Register today to access our comprehensive student management system. Fill in the details below to create your account and get started!</p>
+                    </div>
+                        <div class="col-md-6">
+
+                            <!-- Student Registration Form -->
+                            <div class="form-container">
+                                <form id="privacyForm" data-toggle="validator" data-focus="false">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control-input" id="sname" name="sname" required>
+                                        <label class="label-control" for="sname">Name</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control-input" id="sregnumber" name="sregnumber" required>
+                                        <label class="label-control" for="sregnumber">Register Number</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control-input" id="saddress" rows="4" name="saddress" required></textarea>
+                                        <label class="label-control" for="saddress">Address</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control-input" id="sphone" name="sphone" required>
+                                        <label class="label-control" for="sphone">Phone</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control-input" id="semail" name="semail" required>
+                                        <label class="label-control" for="semail">Email</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="date" class="form-control-input" id="sdob" name="sdob" required>
+                                        <label class="label-control" for="sdob">Date of Birth</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control-select" id="department" name="department" required>
+                                            <option class="select-option" value="" disabled selected>Select your Department</option>
+                                            <option class="select-option" value="AD">Artificial Intelligence and Data Science</option>
+                                            <option class="select-option" value="CE">Civil Engineering</option>
+                                            <option class="select-option" value="CSE">Computer Science and Engineering</option>
+                                            <option class="select-option" value="EEE">Electical and Electronics Engineering</option>
+                                            <option class="select-option" value="ECE">Electronics and Communication Engineering</option>
+                                            <option class="select-option" value="ME">Mechanical Engineering</option>
+                                            <option class="select-option" value="MR">Mechatronics Engineering</option>
+                                            <option class="select-option" value="RE">Robotics Engineering</option>
+                                        </select>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control-select" id="semester" name="semester" required>
+                                            <option class="select-option" value="" disabled selected>Select your Semester</option>
+                                            <option class="select-option" value="S1">1st Semester</option>
+                                            <option class="select-option" value="S2">2nd Semester</option>
+                                            <option class="select-option" value="S3">3rd Semester</option>
+                                            <option class="select-option" value="S4">4th Semester</option>
+                                            <option class="select-option" value="S5">5th Semester</option>
+                                            <option class="select-option" value="S6">6th Semester</option>
+                                            <option class="select-option" value="S7">7th Semester</option>
+                                            <option class="select-option" value="S8">8th Semester</option>
+                                        </select>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control-select" id="division" name="division" required>
+                                            <option class="select-option" value="" disabled selected>Select your Division</option>
+                                            <option class="select-option" value="A">A</option>
+                                            <option class="select-option" value="B">B</option>
+                                            <option class="select-option" value="C">C</option>
+                                        </select>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="label-control" for="sprofilePicture">Profile Picture</label>
+                                        <input type="file" class="form-control-input" id="sprofilePicture" name="sprofilePicture" accept="image/*" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control-input" id="sguardianname" name="sguardianname" required>
+                                        <label class="label-control" for="sguardianname">Guardian's Name</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control-input" id="sguardianphone" name="sguardianphone" required>
+                                        <label class="label-control" for="sguardianphone">Guardian's Phone</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control-input" id="susername" name="susername" required>
+                                        <label class="label-control" for="susername">Create a username</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control-input" id="spassword" name="spassword" required>
+                                        <label class="label-control" for="spassword">Create a password</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control-input" id="spasswordConfirm" name="spasswordConfirm" required>
+                                        <label class="label-control" for="spasswordConfirm">Confirm your password</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group checkbox">
+                                        <input type="checkbox" id="agreed-to-terms" value="agreed-to-terms" required>I have read and agree to all the details I have provided are correct. 
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="form-control-submit-button">REGISTER</button>
+                                    </div>
+                                    <div class="form-message">
+                                        <div id="pmsgSubmit" class="h3 text-center hidden"></div>
+                                    </div>
+                                </form>
+                            </div> <!-- end of form container -->
+                            <!-- end of student registration form -->
+
+                        </div> <!-- end of col--> 
+                    </div> <!-- end of row -->
+                    <a class="btn-solid-reg" href="index.html">BACK</a>
+                </div> <!-- end of col-->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-2 -->
+    <!-- end of privacy content -->
+
+
+    <!-- Breadcrumbs -->
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Student Registration</span>
+                    </div> <!-- end of breadcrumbs -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of breadcrumbs -->
+
+    
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-col first">
+                        <h5>Contact Details</h5>
+                        <p class="p-small">For queries please get in touch using the contact details. For any questions use the form.</p>
+                        <h5>Ezquela Office Location</h5>
+                        <p class="p-small">Ezquela Office, Administrative Block, University of Cambridge <br> +44 68 554 332, &nbsp; +44 31 276 112</p>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-3">
+                    <div class="footer-col second">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled li-space-lg p-small">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a href="terms-conditions.html">Terms & Conditions</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a href="register-student.html">Student Registration</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a href="article-details.html">Article Details</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-6">
+                    <div class="footer-col third">
+                        <form id="contactForm" data-toggle="validator" data-focus="false">
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="cname" required>
+                                <label class="label-control" for="cname">Name</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control-input" id="cemail" required>
+                                <label class="label-control" for="cemail">Email</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                                <label class="label-control" for="cmessage">Your message</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control-submit-button">SUBMIT</button>
+                            </div>
+                            <div class="form-message">
+                                <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                            </div>
+                        </form>
+                    </div> 
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2024 <a href="#">ShaijoGeorge</a> - All rights reserved</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/jquery.countdown.min.js"></script> <!-- The Final Countdown plugin for jQuery -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
