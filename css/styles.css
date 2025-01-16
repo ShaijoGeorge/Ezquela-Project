@@ -882,6 +882,17 @@ input[type='checkbox'] {
 	color: #ffbd50;
 }
 
+nav .btn-solid-lg {
+	margin-right: 0.5rem;
+	margin-bottom: 1.125rem;
+	margin-left: 0.5rem;
+}
+
+nav .btn-solid-lg:hover {
+	border: 0.125rem solid #ffbd50;
+	color: #ffbd50;
+}
+
 .header .btn-outline-lg {
 	border: 0.125rem solid #fff;
 	color: #fff;
