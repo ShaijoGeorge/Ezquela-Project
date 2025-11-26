@@ -159,10 +159,6 @@ jocaptcha/
 
 Created with ❤️ by **Shaijo George** as a robust, open-source CAPTCHA alternative.
 
-### 🔗 Links
-- 📦 [GitHub Repository](https://github.com/ShaijoGeorge/JoCAPTCHA)
-- 🐛 [Report Issues](https://github.com/ShaijoGeorge/JoCAPTCHA/issues)
-
 ---
 
 ## 🤝 Contributing
@@ -175,6 +171,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 **⭐ If you find JoCAPTCHA useful, please give it a star! ⭐**
 
-Made with 🛡️ by developers, for developers
+Made with 🛡️ by a developer, for developers
 
 </div>
