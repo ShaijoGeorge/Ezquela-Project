@@ -155,26 +155,19 @@ jocaptcha/
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License - feel free to use it in your projects!
-
----
-
 ## 👤 Credits
 
 Created with ❤️ by **Shaijo George** as a robust, open-source CAPTCHA alternative.
 
 ### 🔗 Links
-- 📦 [GitHub Repository](https://github.com/yourusername/jocaptcha)
-- 📖 [Documentation](https://github.com/yourusername/jocaptcha/wiki)
-- 🐛 [Report Issues](https://github.com/yourusername/jocaptcha/issues)
+- 📦 [GitHub Repository](https://github.com/ShaijoGeorge/JoCAPTCHA)
+- 🐛 [Report Issues](https://github.com/ShaijoGeorge/JoCAPTCHA/issues)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/jocaptcha/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ShaijoGeorge/JoCAPTCHA/issues).
 
 ---
 
